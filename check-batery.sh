@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-upower -i $(upower -e | grep 'BAT') | grep -E "state|to\ full|percentage"
+upower -i $(upower -e | grep 'BAT') | grep -E "state|time\ to\ full|percentage"
